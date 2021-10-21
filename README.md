@@ -84,6 +84,14 @@ VS Code 上でターミナルを扱う時に初期設定では文字化けする
 
 書いてく時のルールについて記載する。
 
+### git
+
+#### commit message
+
+コミットメッセージのフォーマットはざっくり [Angular のメッセージフォーマット](https://gist.github.com/brianclements/841ea7bffdb01346392c#type) を参考にする。
+
+これを簡便にする node module が [commitizen](https://www.npmjs.com/package/commitizen) なのだけれど、GitBash 環境でどうも上手く動いていないっぽい。macOS（開発機）で利用していた時は問題なかった `git cz` 入力後にターミナルが操作を受け付けなくなっており、要調査。
+
 ### markdown
 
 #### 見出し
