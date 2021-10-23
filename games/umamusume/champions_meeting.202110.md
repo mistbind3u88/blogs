@@ -2,14 +2,9 @@
 
 ここ数ヶ月それなりに時間を費やしているアプリゲーム、ウマ娘プリティーダービーにおける月例ユーザー大会「チャンピオンズミーティング（CMTGs）」の 10 月開催大会、ライブラ杯の結果を備忘録的に纏めていく。
 
-```planetext
-ライブラ杯コース概要
-
-菊花賞
-京都 3000m 芝・良馬場 右・外 晴れ 秋
-```
-
 <!-- TODO: 公式の NEWS からキャプションを引用 -->
+
+<https://umamusume.jp/>
 
 ライブラ杯ステータス → ラウンド 1 終了
 
@@ -27,9 +22,7 @@
 
 終盤コーナーまでにハナを取る、ないしそもそも逃げが居ない場合に逃げポジションを取って継承固有スキル「アングリング × スキーミング（アンスキ）」で準最速の加速を得る事を目的とした型を採用。
 
-<!-- https://twitter.com/645reform/status/1447590669774512129?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">長距離S、先行Sのメジロマックイーン出来。<br><br>超長距離は京都しか対応できないだろうけれど、ライブラ杯想定では今編成している自分のゴールドシップ相当が相手なら10戦中3戦は先着しそう。<br>アンスキ型を試行してきたから、次はレンタルしてた親のセイウンスカイをスタミナ9に変えてみる。 <a href="https://t.co/pa82DRSKuf">pic.twitter.com/pa82DRSKuf</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1447590669774512129?ref_src=twsrc%5Etfw">October 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1447590669774512129?s=20>
 
 スタミナ不安も多少あったので別の型の育成を検討していたが、回復スキルを多めに取っている、京都レース場 ◎ でギリギリステータス 1000 相当をキープした成果で先行エースとしてのポジションを確率し、本戦出走に至った。
 
@@ -41,9 +34,7 @@
 
 本戦に向けての育成最初期にいきなり誕生したゴールドシップが、そのまま本戦に出場した。
 
-<!-- https://twitter.com/645reform/status/1445756498777292804?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">とりあえず、ステ重視で継承した叩き台になるゴールドシップ育成出来。<br><br>クールダウン切って下校後+右回り◎取っちゃった方が良かったかもしれん。。。 <a href="https://t.co/jSGzDOgZAG">pic.twitter.com/jSGzDOgZAG</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1445756498777292804?ref_src=twsrc%5Etfw">October 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1445756498777292804?s=20>
 
 スタミナの見積があまりできておらず不安があったが、追込という脚質もあってその点では及第点だった。
 
@@ -59,37 +50,27 @@
 
 いづれも育成後期に見出された、根性、賢さを適量確保する事を目指した SS+/A+/A+/B/B 構成。サポートカード [うらら～な休日] ハルウララを編成し、シナリオリンクで得られる金回復スキル不屈の心を取得する事で安定発動を期待できる回復スキルを増やした型を採用。
 
-<!-- https://twitter.com/645reform/status/1449196981780299783?s=20 -->
+<https://twitter.com/645reform/status/1449196981780299783?s=20>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">スピードもう一回有情で叩きたかったけれど、スキルが足りてないって事もないし概ね目標通りの芝S長距離Sナリタタイシン出来。 <a href="https://t.co/UIiVIaOOfJ">https://t.co/UIiVIaOOfJ</a> <a href="https://t.co/IuqP91tuuJ">pic.twitter.com/IuqP91tuuJ</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1449196981780299783?ref_src=twsrc%5Etfw">October 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!-- https://twitter.com/645reform/status/1450387387704479744?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">味変でスタミナ9因子目標も兼ねて育成したら、長距離Sナリタタイシン育成出来。<br><br>差しA付いちゃってて追込、長距離系のヒント全然拾えずスキル弱いけれど、ルムマの成績は明確にアガった。スピード20が相当の差になってるみたいなのでここから粘るなら右回り、秋ウマ娘拾いに行く感じかな。。。 <a href="https://t.co/hN2hLWWpJB">https://t.co/hN2hLWWpJB</a> <a href="https://t.co/Oxf4rGld2p">pic.twitter.com/Oxf4rGld2p</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1450387387704479744?ref_src=twsrc%5Etfw">October 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1450387387704479744?s=20>
 
 1 枚目は「一匹狼」を除くとスピードがやや不足しており、スパート区間が 1000m を越える超長距離ではこの差が大きくルームマッチで速度負けする事が多かった。再育成に挑戦して一応長距離 S で及第点のステータスを満たせたのが 2 枚目で、スキルヒントが足りなかったもののスピードの差分で戦績を上げていた。
 
 ## グレードリーグ出走記録
 
+<!-- 開幕 -->
+
+<https://twitter.com/645reform/status/1451401763597131781?s=20>
+
+そして ...
+
 ### ラウンド 1
 
-<!-- https://twitter.com/645reform/status/1451401763597131781?s=20 -->
+<https://twitter.com/645reform/status/1451418700741951488?s=20>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">開　幕 <a href="https://t.co/Cc4F6ZMXGo">pic.twitter.com/Cc4F6ZMXGo</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1451401763597131781?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1451422303783317511?s=20>
 
-<!-- https://twitter.com/645reform/status/1451404442545258496?s=20 -->
-
-<!-- https://twitter.com/645reform/status/1451422303783317511?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ライブラ杯初日、出走メンバーおよび戦績。<br><br>ゴールドシップの連帯率が突出している。エースメジロマックイーンは逃げポジを取れないと負けパターンになるため安定感は多少欠く。10戦ずつ2パターン出走したナリタタイシンは、意外と一匹狼が発動するためかスピードが僅かに劣る方が戦績よし。 <a href="https://t.co/ixlAUErVCL">pic.twitter.com/ixlAUErVCL</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1451422303783317511?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!-- https://twitter.com/645reform/status/1451422303783317511?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ライブラ杯初日、出走メンバーおよび戦績。<br><br>ゴールドシップの連帯率が突出している。エースメジロマックイーンは逃げポジを取れないと負けパターンになるため安定感は多少欠く。10戦ずつ2パターン出走したナリタタイシンは、意外と一匹狼が発動するためかスピードが僅かに劣る方が戦績よし。 <a href="https://t.co/ixlAUErVCL">pic.twitter.com/ixlAUErVCL</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1451422303783317511?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!-- https://twitter.com/645reform/status/1451777846876119049?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ライブラ杯二日目、出走メンバー。<br><br>連対率が高いのは追込勢だけれど、勝ち星自体は先行黒マックもほぼ差は無い。割と自信を持って良い三枚エースになったかな。 <a href="https://t.co/jwT5zixXCx">pic.twitter.com/jwT5zixXCx</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1451777846876119049?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1451777846876119049?s=20>
 
 ラウンド 1 通算成績は 37-3 とまずは満足の仕上がり。無事ラウンド 2 の A グループへと歩を進めた。
 
@@ -97,9 +78,7 @@
 
 要因は恐らく「一匹狼」の発動の有無で、これを含めればスピードの実数値は 1200 を取り敢えずは越える。相手トレーナーがナリタタイシンを出走させていても「一匹狼」を覚えさせていない場合も目立ち、そういった場面で勝ち星を積んだ。
 
-<!-- https://twitter.com/645reform/status/1451411803418685440?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">わぉ <a href="https://t.co/retaJK7ZTl">pic.twitter.com/retaJK7ZTl</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1451411803418685440?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1451411803418685440?s=20>
 
 連帯率こそ追込勢が抑えているものの、先行のメジロマックイーンも勝ち星はそう変わらず 3 枚エース編成として満足している。
 
@@ -127,9 +106,7 @@ To be continued ...
 
 今回はようやく覚醒スキルを解放するだけの余裕が生まれたという事で、lv 3 解放以来久しぶりの本育成に挑戦した。
 
-<!-- https://twitter.com/645reform/status/1446118605494505489?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">長距離Sで初Sランクのメジロライアン出来。<br><br>...... マエストロ来ておらんが！！？ <a href="https://t.co/ywuuOQQY53">pic.twitter.com/ywuuOQQY53</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1446118605494505489?ref_src=twsrc%5Etfw">October 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1446118605494505489?s=20>
 
 運良く複数回、長距離 S での育成を達成できたが、本戦出場には至らなかった。
 
@@ -159,9 +136,7 @@ To be continued ...
 
 対象コースが超長距離という事もあってスタミナは全体的に多めにステータス、スキルを盛られている事が予想できるため、半端な選出では役割を持てないと思われた。ただし、ラウンド 1 初日で唯一の一敗をつけられたナイスネイチャレベルのデバッファーを育成できたなら十分に決勝ラウンドでの選出を考慮できるだろう。
 
-<!-- https://twitter.com/645reform/status/1451417596906000395?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">このレベルのデバフネイチャに当たったのは多分チャンピオンズミーティング通して初めてだな。。。 <a href="https://t.co/iI9kMqSR3Y">pic.twitter.com/iI9kMqSR3Y</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1451417596906000395?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1451417596906000395?s=20>
 
 これはやばい。。。
 
@@ -169,17 +144,13 @@ To be continued ...
 
 ライブラ杯開幕直前でリリースされた [Creeping Black] マンハッタンカフェにバグが無ければ、マンハッタンカフェとナイスネイチャのデバフ枠 2 枚を採用して先行の単騎エースを送り出す編成は有力だったかもしれない。
 
-<!-- https://twitter.com/645reform/status/1450698866802655236?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">有馬にマンハッタンカフェおった <a href="https://t.co/fMKbgkOSZh">pic.twitter.com/fMKbgkOSZh</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1450698866802655236?ref_src=twsrc%5Etfw">October 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1450698866802655236?s=20>
 
 ### [Nevertheless] ナリタタイシン / 追込
 
 ナリタタイシンは当初スピード / パワー型の育成を試行していた。（2 枚目、3 枚目）
 
-<!-- https://twitter.com/645reform/status/1449196981780299783?s=20 -->
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">SS+/A+/A+/B/B 構成のナリタタイシンの育成にトライしてみた。Sランク。距離適性はなし。<br><br>2回続けてライスシャワーからマエストロ貰えなかったけれど、ステ構成の再現は取れた形。試走してみたところ、確かに SS+/S/SS+/C/C を目指したナリタタイシンよりルームマッチはいい位置につける気がする。 <a href="https://t.co/cGJwxV1Kma">pic.twitter.com/cGJwxV1Kma</a></p>&mdash; n.Sekiguchi 𓅚 Mistbind Artisan (@645reform) <a href="https://twitter.com/645reform/status/1449009973627789338?ref_src=twsrc%5Etfw">October 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<https://twitter.com/645reform/status/1449196981780299783?s=20>
 
 スピード/パワー型で育成したパターンがルームマッチであまり成果を出せていたなかったところで、ルームマッチ上で根性 B を目安に育成した型が成果を上げており試験的に育成した。実際にレース展開の向上が確認できたので本戦にはそちらを採用している。
 
