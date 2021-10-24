@@ -1,4 +1,4 @@
 {
-    "editor.formatOnSave": true,
-    "japanese-proofreading.textlint.全角文字と半角文字の間": false
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

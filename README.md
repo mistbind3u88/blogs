@@ -1,9 +1,8 @@
 # about this repository
 
-このリポジトリは個人でブログ執筆をする上での草案などを履歴管理する事を目的とする。
-README にはディレクトリ構成の意図や執筆環境として利用しているツールなどを言語化し再現可能にするための整理をしていくために利用していく予定。
+このリポジトリは個人でブログ執筆をする上での草案などを履歴管理する事を目的とする。READMEにはディレクトリ構成の意図や執筆環境として利用しているツールなどを言語化し再現可能にするための整理をしていくために利用していく予定。
 
-基本的には私用でメイン機として利用している Windows 環境を前提として記載する。
+基本的には私用でメイン機として利用しているWindows環境を前提として記載する。
 
 ## about Directories
 
@@ -27,7 +26,7 @@ README にはディレクトリ構成の意図や執筆環境として利用し�
 
 ### Visual Studio Code
 
-基本的に記事は markdown 形式に落とすので、執筆時にエディターとして利用する。
+基本的に記事はmarkdown形式に落とすので、執筆時にエディターとして利用する。
 
 #### plugins
 
@@ -35,48 +34,55 @@ README にはディレクトリ構成の意図や執筆環境として利用し�
 
 - EditorConfig for Visual Studio Code
 
-  - VS Code の設定管理として
+  - VS Codeの設定管理として
 
 - markdownlint
 
-  - markdown 向けの linter。
+  - markdown向けのlinter。
 
 - テキスト校正くん
 
   - 文章自体のの簡易的な校正のために利用する。
-  - markdown の lint と競合するため、「設定 > Japanese-proofreading › Textlint: 全角文字と半角文字の間」を off にする。
+  - ~~markdownのlintと競合するため、「設定 > Japanese-proofreading › Textlint: 全角文字と半角文字の間」をoffにする。~~
+    - 競合部分をprettierで扱わない事にしたのでonに。
 
 - Prettier Formatter for Visual Studio Code
 
-  - markdown の formatter として prettier を利用する。
+  - markdownのformatterとしてprettierを利用する。
+  - [Prettier に関して markdown のフォーマッタとしての問題](https://qiita.com/tats-u/items/bcbfe2bb4e71bf0a2b87)があったため拡張機能デフォルトのprettierではなくnodeモジュールをインストールしたものを利用する。
+    - noteに転記したところ全体として滅茶苦茶読み難かった。
 
 - YAML Language Support by Red Hat
-  - prettier の設定ファイルは yaml で書く。
+  - prettierの設定ファイルはyamlで書く。
 
 ### xmind
 
-mindmap エディター。ネタ出し、アイデアノートとしてアドホックに文を羅列する段階で利用する。
+mindmapエディター。ネタ出し、アイデアノートとしてアドホックに文を羅列する段階で利用する。
 
 ## about node modules
 
-執筆時に便利な道具として node module を利用する場合がある。node.js 自体のバージョン管理は nvm で行う。
+執筆時に便利な道具としてnode moduleを利用する場合がある。node.js自体のバージョン管理はnvmで行う。
+
+### prettier
+
+[Prettier に関する markdown のフォーマッタとしての問題](https://qiita.com/tats-u/items/bcbfe2bb4e71bf0a2b87)を回避するため開発環境にインストールして利用する。
 
 ### commitzen
 
-~~git のコミットログを整理するための npm モジュール。~~
-windows の VS Code ターミナル (GitBash) だと相性が悪くコミットを上手く作れないっぽい。
+~~gitのコミットログを整理するためのnpmモジュール。~~
+windowsのVS Codeターミナル (GitBash) だと相性が悪くコミットを上手く作れないっぽい。
 
 ## about Terminal
 
 ### GitBash
 
-Windows で git を扱う為に Git for Windows をインストール。ついでに GitBash が入るので基本的にはこれを使う。
+Windowsでgitを扱う為にGit for Windowsをインストール。ついでにGitBashが入るので基本的にはこれを使う。
 
 #### 留意点
 
-VS Code 上でターミナルを扱う時に初期設定では文字化けする。VS Code 側の設定で標準出力を utf-8 に変更する必要がある。
+VS Code上でターミナルを扱う時に初期設定では文字化けする。VS Code側の設定で標準出力をutf-8に変更する必要がある。
 
-私の場合は windows 環境で対応するため intl.cpl から変更してしまった。
+私の場合はwindows環境で対応するためintl.cplから変更してしまった。
 
 参考: [VSCode – ターミナルで UTF8 をデフォルトにする方法 (Windows)](https://pystyle.info/vscode-change-default-encoding-of-terminal-to-utf8/#outline__3)
 
@@ -90,11 +96,12 @@ VS Code 上でターミナルを扱う時に初期設定では文字化けする
 
 コミットメッセージのフォーマットはざっくり [Angular のメッセージフォーマット](https://gist.github.com/brianclements/841ea7bffdb01346392c#type) を参考にする。
 
-これを簡便にする node module が [commitizen](https://www.npmjs.com/package/commitizen) なのだけれど、GitBash 環境でどうも上手く動いていないっぽい。macOS（開発機）で利用していた時は問題なかった `git cz` 入力後にターミナルが操作を受け付けなくなっており、要調査。
+これを簡便にするnode moduleが [commitizen](https://www.npmjs.com/package/commitizen) なのだけれど、GitBash環境でどうも上手く動いていないっぽい。macOS（開発機）で利用していた時は問題なかった `git cz` 入力後にターミナルが操作を受け付けなくなっており、要調査。
 
 ### markdown
 
 #### 見出し
 
-- H5 以上は使わない。
+- H5以上は使わない。
+
   - 文字が小さくなりすぎそう。
