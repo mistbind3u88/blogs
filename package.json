@@ -1,0 +1,25 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "The purpose of this repository is to manage the history of my personal blog writing drafts.",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.4.1",
+    "prettier-plugin-md-nocjsp": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistbind3u88/blogs.git"
+  },
+  "author": "mistbind3u88",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/mistbind3u88/blogs/issues"
+  },
+  "homepage": "https://github.com/mistbind3u88/blogs#readme"
+}
