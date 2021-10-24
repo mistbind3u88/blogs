@@ -92,6 +92,12 @@ VS Code上でターミナルを扱う時に初期設定では文字化けする�
 
 ### git
 
+#### branch
+
+ブランチを切って作業する時にはリポジトリにissueを立ててそのidをブランチに含める。
+
+たとえば記事執筆時、`feature/#{id}-{description}`。
+
 #### commit message
 
 コミットメッセージのフォーマットはざっくり [Angular のメッセージフォーマット](https://gist.github.com/brianclements/841ea7bffdb01346392c#type) を参考にする。
