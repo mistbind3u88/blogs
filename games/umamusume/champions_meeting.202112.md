@@ -8,6 +8,10 @@
 
 > ヘッダーの画像は公式ポータルサイトより引用しています
 
+<https://twitter.com/uma_musu/status/1465878353702187008>
+
+> 2021/12/01 twitter 上で条件公開
+
 <https://note.com/mistbind_artisan/n/n5e82b10e797b>
 
 > ゴールドに終った11月スコーピオ杯の記事はこちら
@@ -35,6 +39,8 @@
 <https://www.youtube.com/watch?v=MXCaRIcn18I>
 
 <https://twitter.com/uma_musu/status/1465274770162077698>
+
+翌月1日に各種媒体で条件が通知されているが、配信上では日程等も告知されている。
 
 ### 中山2500m（中距離・根幹距離）、冬、右回り、晴れ・良馬場
 
