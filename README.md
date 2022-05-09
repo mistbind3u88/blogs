@@ -45,6 +45,10 @@
   - 文章自体のの簡易的な校正のために利用する。
   - ~~markdownのlintと競合するため、「設定 > Japanese-proofreading › Textlint: 全角文字と半角文字の間」をoffにする。~~
     - 競合部分をprettierで扱わない事にしたのでonに。
+  - 「Japanese-proofreading › Textlint: かっこ類と隣接する文字の間のスペースの有無」をoff
+  - 「Japanese-proofreading › Textlint: 大かっこ［］」をoff
+    - テキスト校正くんのバージョンアップで入った内容
+    - windowsの入力周りで全角大かっこの入力が手間なので
 
 - Prettier Formatter for Visual Studio Code
 
