@@ -6,6 +6,10 @@
 
 <https://umamusume.jp/>
 
+<https://note.com/mistbind_artisan/n/nbd462e7cc94b>
+
+> グレードリーグ決勝A、3つ目のプラチナを獲得したアクエリアス杯の記事はこちら。
+
 ## 大型アップデート適用、「Make a new track!!」シナリオ開幕、新環境開幕！
 
 <!-- リリース1周年 -->
