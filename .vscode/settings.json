@@ -1,4 +1,18 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "markdownlint.config": {
+    "MD024": false,
+    "MD026": false
+  },
+  "sortJSON.orderOverride": ["name", "version", "description"],
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "japanese-proofreading.textlint.かっこ類と隣接する文字の間のスペースの有無": false,
+  "japanese-proofreading.textlint.ダッシュ(-)": false,
+  "japanese-proofreading.textlint.丸かっこ（）": false,
+  "japanese-proofreading.textlint.疑問符(？)": false,
+  "japanese-proofreading.textlint.算用数字と漢数字の使い分け": false,
+  "japanese-proofreading.textlint.大かっこ［］": false
 }
