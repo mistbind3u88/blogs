@@ -4,23 +4,37 @@
 
 基本的には私用でメイン機として利用しているWindows環境を前提として記載する。
 
+## about Posting Sites
+
+現在のところ下記のサービスを対象に記事を投稿している。
+
+- [note](https://note.com/mistbind_artisan/all)
+- [カクヨム](https://kakuyomu.jp/users/mistbind_artisan)
+- [はてなブログ](https://mistbind3u88.hatenablog.com/)（縮退傾向）
+
 ## about Directories
 
 本リポジトリのディレクトリ構成について記載する。
 
 トップレベルには設定ファイルを配置し、下位ディレクトリをトピック毎に切る。
 
-### 映画・漫画感想系
+### [entertainments](https://github.com/mistbind3u88/blogs/tree/main/entertainments)
 
 アバウトにエンタメ感想系。
 
 取り敢えずは完結済みの漫画シリーズや映画の感想をメインに書いていく。物語構造や自分がおもしろいと思った事の整理としてまとめていく。
 
-### ゲーム体験系
+ウマ娘を始めて1度競馬の予想などもしてみた。
+
+### [games](https://github.com/mistbind3u88/blogs/tree/main/games)
 
 日頃プレイしたゲームのプレイに関する考察など。
 
 映画・漫画の感想系との区別として、純粋に楽しんだ事のまとめという要素の他にゲームデザインに対する考察や攻略のアイデアという能動的な要素を含む。
+
+### [stories](https://github.com/mistbind3u88/blogs/tree/main/stories)
+
+三題噺など短編を書いた時に。
 
 ## about Editors
 
@@ -28,36 +42,53 @@
 
 基本的に記事はmarkdown形式に落とすので、執筆時にエディターとして利用する。
 
-#### plugins
+以下、執筆時に利用してるプラグインについて記載する。
 
-執筆時に利用してるプラグインについて記載する。
+#### EditorConfig for Visual Studio Code
 
-- EditorConfig for Visual Studio Code
+VS Codeの設定管理として。
 
-  - VS Codeの設定管理として
+#### Sort JSON objects
 
-- markdownlint
+"setting.js"のソート用に。setting.jsのOnSaveでは上手く動かなかった？
 
-  - markdown向けのlinter。
+#### markdownlint
 
-- テキスト校正くん
+markdown向けのlinter。
 
-  - 文章自体のの簡易的な校正のために利用する。
-  - ~~markdownのlintと競合するため、「設定 > Japanese-proofreading › Textlint: 全角文字と半角文字の間」をoffにする。~~
-    - 競合部分をprettierで扱わない事にしたのでonに。
-  - 「Japanese-proofreading › Textlint: かっこ類と隣接する文字の間のスペースの有無」をoff
-  - 「Japanese-proofreading › Textlint: 大かっこ［］」をoff
-    - テキスト校正くんのバージョンアップで入った内容
-    - windowsの入力周りで全角大かっこの入力が手間なので
+- 「MD024 - Multiple headings with the same content」をoff
+- 「MD026 - Trailing punctuation in heading」をoff
+  - ！や？も使えないので
 
-- Prettier Formatter for Visual Studio Code
+#### テキスト校正くん
 
-  - markdownのformatterとしてprettierを利用する。
-  - [Prettier に関して markdown のフォーマッタとしての問題](https://qiita.com/tats-u/items/bcbfe2bb4e71bf0a2b87)があったため拡張機能デフォルトのprettierではなくnodeモジュールをインストールしたものを利用する。
-    - noteに転記したところ全体として滅茶苦茶読み難かった。
+文章自体のの簡易的な校正のために利用する。
 
-- YAML Language Support by Red Hat
-  - prettierの設定ファイルはyamlで書く。
+- ~~markdownのlintと競合するため、「設定 > Japanese-proofreading › Textlint: 全角文字と半角文字の間」をoffにする。~~
+  - 競合部分をprettierで扱わない事にしたのでonに。
+- 「Japanese-proofreading › Textlint: かっこ類と隣接する文字の間のスペースの有無」をoff
+- 「Japanese-proofreading › Textlint: ダッシュ(-)」をoff
+- 「Japanese-proofreading › Textlint: 丸かっこ（）」をoff
+  - markdownのBold記法と組み合わせた時に大かっこの後に半角スペースを入れないといけない場面がある
+- 「Japanese-proofreading › Textlint: 大かっこ［］」をoff
+  - テキスト校正くんのバージョンアップで入った内容
+  - windowsの入力周りで全角大かっこの入力が手間なので
+- 「Japanese-proofreading › Textlint: 疑問符(？)」をoff
+  - ？の後に全角スペースは普通に入れない
+- 「Japanese-proofreading › Textlint: 算用数字と漢数字の使い分け」をoff
+  - 残したいところではあったが、どうしても漢数字を使う方が自然に思える箇所で算用数字を要求される場面がある
+
+#### Prettier Formatter for Visual Studio Code
+
+markdownのformatterとしてprettierを利用する。
+
+[Prettier に関して markdown のフォーマッタとしての問題](https://qiita.com/tats-u/items/bcbfe2bb4e71bf0a2b87)があったため拡張機能デフォルトのprettierではなくnodeモジュールをインストールしたものを利用する。
+
+（noteに転記したところ全体として滅茶苦茶読み難かった。）
+
+#### YAML Language Support by Red Hat
+
+- prettierの設定ファイルはyamlで書く。
 
 ### xmind
 
@@ -88,7 +119,7 @@ VS Code上でターミナルを扱う時に初期設定では文字化けする�
 
 私の場合はwindows環境で対応するためintl.cplから変更してしまった。
 
-参考: [VSCode – ターミナルで UTF8 をデフォルトにする方法 (Windows)](https://pystyle.info/vscode-change-default-encoding-of-terminal-to-utf8/#outline__3)
+参考: [VS Code – ターミナルで UTF8 をデフォルトにする方法 (Windows)](https://pystyle.info/vscode-change-default-encoding-of-terminal-to-utf8/#outline__3)
 
 ## how to Write
 
@@ -112,7 +143,9 @@ Issueは立てっぱなしを防止し期日管理をするため、必ず期日
 
 ブランチを切って作業する時にはリポジトリにissueを立ててそのidをブランチに含める。
 
-たとえば記事執筆時、`feature/#{id}-{description}`。
+- 記事執筆/改稿/更新時: `feature/#{id}-{description}`
+- 記事訂正時: `fix/#{id}-{description}`
+  - 訂正と改稿/更新の違いは内容の誤りを正す事が目的かどうか。
 
 #### commit message
 
@@ -124,6 +157,18 @@ Issueは立てっぱなしを防止し期日管理をするため、必ず期日
 
 #### 見出し
 
+```markdown
+# タイトル
+
+## 大項目
+
+### 小項目
+
+#### 記事中では強調などで扱うケース
+
+必要に応じて適宜箇条書きを用いる事
+```
+
 - H5以上は使わない。
 
   - 文字が小さくなりすぎそう。
@@ -132,9 +177,27 @@ Issueは立てっぱなしを防止し期日管理をするため、必ず期日
 
   - アウトプット先のnoteはWYSIWYGなので読点で改行するとそのまま反映される。
 
-- twitterの組み込み記法（マークアップ）は使わない。
-  - noteはマークアップに対応していない。note側のエディターでtwitterのURLリンクを埋め込む。
+#### Bold
 
-#### 箇条書き
+```markdown
+noteは**Bold**対応済み。
+ただし、**括弧 (かっこ)** を使うときにVS Codeのプレビューが全角半角問わず前後に半角スペースを要求する事に留意。
+```
 
-- noteは箇条書きに基本的には対応していないので利用ケースに注意。
+#### 組み込み記法（マークアップ）
+
+twitter等を扱うのにマークアップは使わない。
+
+- noteはマークアップに対応していない。note側のエディターでtwitterのURLリンクを埋め込む。
+
+### 特異記法
+
+#### ルビ
+
+```markdown
+ルビの書き方の説明《せつめい》。
+この書き方だとカクヨムは自動的に漢字までを構文解析して振ってくれる。
+
+noteではルビを振る範囲を|必ず《かならず》指定する
+カクヨムでもひらがなや複数単語にまで跨ったルビを振るにはこちらの記法にする必要がある。
+```
