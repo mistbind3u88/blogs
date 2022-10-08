@@ -4,6 +4,14 @@
 
 基本的には私用でメイン機として利用しているWindows環境を前提として記載する。
 
+## about Posting Sites
+
+現在のところ下記のサービスを対象に記事を投稿している。
+
+- [note](https://note.com/mistbind_artisan/all)
+- [カクヨム](https://kakuyomu.jp/users/mistbind_artisan)
+- [はてなブログ](https://mistbind3u88.hatenablog.com/)（縮退傾向）
+
 ## about Directories
 
 本リポジトリのディレクトリ構成について記載する。
@@ -26,9 +34,7 @@
 
 ### [stories](https://github.com/mistbind3u88/blogs/tree/main/stories)
 
-感想系というより三題噺などnoteにも出せる短編を書いた時に。
-
-基本的にはカクヨムへの同時投稿を想定する。
+三題噺など短編を書いた時に。
 
 ## about Editors
 
