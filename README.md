@@ -62,7 +62,7 @@ markdown向けのlinter。
 
 #### テキスト校正くん
 
-文章自体のの簡易的な校正のために利用する。
+文章自体の簡易的な校正のために利用する。
 
 - ~~markdownのlintと競合するため、「設定 > Japanese-proofreading › Textlint: 全角文字と半角文字の間」をoffにする。~~
   - 競合部分をprettierで扱わない事にしたのでonに。
@@ -117,7 +117,7 @@ Windowsでgitを扱う為にGit for Windowsをインストール。ついでにG
 
 VS Code上でターミナルを扱う時に初期設定では文字化けする。VS Code側の設定で標準出力をutf-8に変更する必要がある。
 
-私の場合はwindows環境で対応するためintl.cplから変更してしまった。
+私の場合はWindows環境で対応するためintl.cplから変更してしまった。
 
 参考: [VS Code – ターミナルで UTF8 をデフォルトにする方法 (Windows)](https://pystyle.info/vscode-change-default-encoding-of-terminal-to-utf8/#outline__3)
 
@@ -149,9 +149,9 @@ Issueは立てっぱなしを防止し期日管理をするため、必ず期日
 
 #### commit message
 
-コミットメッセージのフォーマットはざっくり [Angular のメッセージフォーマット](https://gist.github.com/brianclements/841ea7bffdb01346392c#type) を参考にする。
+コミットメッセージのフォーマットはざっくり[Angular のメッセージフォーマット](https://gist.github.com/brianclements/841ea7bffdb01346392c#type)を参考にする。
 
-これを簡便にするnode moduleが [commitizen](https://www.npmjs.com/package/commitizen) なのだけれど、GitBash環境でどうも上手く動いていないっぽい。macOS（開発機）で利用していた時は問題なかった `git cz` 入力後にターミナルが操作を受け付けなくなっており、要調査。
+これを簡便にするnode moduleが[commitizen](https://www.npmjs.com/package/commitizen)なのだけれど、GitBash環境でどうも上手く動いていないっぽい。macOS (開発機) で利用していた時は問題なかった`git cz`入力後にターミナルが操作を受け付けなくなっており、要調査。
 
 ### markdown
 
