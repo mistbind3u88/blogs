@@ -10,7 +10,7 @@
 
 トップレベルには設定ファイルを配置し、下位ディレクトリをトピック毎に切る。
 
-### entertainments
+### [entertainments](https://github.com/mistbind3u88/blogs/tree/main/entertainments)
 
 アバウトにエンタメ感想系。
 
@@ -18,13 +18,13 @@
 
 ウマ娘を始めて1度競馬の予想などもしてみた。
 
-### games
+### [games](https://github.com/mistbind3u88/blogs/tree/main/games)
 
 日頃プレイしたゲームのプレイに関する考察など。
 
 映画・漫画の感想系との区別として、純粋に楽しんだ事のまとめという要素の他にゲームデザインに対する考察や攻略のアイデアという能動的な要素を含む。
 
-### stories
+### [stories](https://github.com/mistbind3u88/blogs/tree/main/stories)
 
 感想系というより三題噺などnoteにも出せる短編を書いた時に。
 
