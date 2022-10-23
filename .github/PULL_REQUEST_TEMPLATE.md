@@ -1,8 +1,8 @@
-# Subject
+# Subject as How
 
-_Issueを解決するために何をしたかを書く。_
+_Issueを解決するためにどのようなことをしたかを書く。_
 
-# What
+# Details
 
 _内容の詳細を書く。_
 
