@@ -14,5 +14,6 @@
   "japanese-proofreading.textlint.丸かっこ（）": false,
   "japanese-proofreading.textlint.疑問符(？)": false,
   "japanese-proofreading.textlint.算用数字と漢数字の使い分け": false,
-  "japanese-proofreading.textlint.大かっこ［］": false
+  "japanese-proofreading.textlint.大かっこ［］": false,
+  "markdown.preview.breaks": true
 }
