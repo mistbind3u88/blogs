@@ -5,7 +5,8 @@
   },
   "markdownlint.config": {
     "MD024": false,
-    "MD026": false
+    "MD026": false,
+    "MD028": false
   },
   "sortJSON.orderOverride": ["name", "version", "description"],
   "editor.formatOnSave": true,
