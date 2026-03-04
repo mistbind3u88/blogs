@@ -116,3 +116,5 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - [ ] ブランチ名は Issue 番号と簡潔なスラッグを含んでいるか？
 - [ ] 本文は「概要 / 変更内容 / 確認方法」を過不足なく満たしているか？
 - [ ] README.md の内容は、この Issue/PR の目的に関係しない限り、勝手に書き換えない。
+- [ ] push 前に `npm test` など関連する lint / テストをローカルで通しておく。
+- [ ] fixup コミットやフォーマットのみのコミットがあれば、`--fixup` / `--autosquash` や `--amend` で潰してから push する。
