@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "The purpose of this repository is to manage the history of my personal blog writing drafts.",
   "main": "index.js",
-  "dependencies": {
-    "prettier": "^2.4.1",
-    "prettier-plugin-md-nocjsp": "^1.2.0"
+  "dependencies": {},
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-md-nocjsp": "^1.5.1",
+    "textlint": "^15.4.0",
+    "textlint-rule-preset-japanese": "^10.0.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:prettier": "prettier --check .",
+    "lint:markdown": "markdownlint \"**/*.md\" --ignore node_modules",
+    "lint:text": "textlint \"**/*.md\"",
+    "lint": "npm run lint:prettier && npm run lint:markdown && npm run lint:text",
+    "format": "prettier --write .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",

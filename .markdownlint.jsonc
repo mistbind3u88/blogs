@@ -1,0 +1,7 @@
+{
+  // VS Code の markdownlint 設定に合わせたルール
+  "MD013": false,
+  "MD024": false,
+  "MD026": false,
+  "MD028": false
+}
