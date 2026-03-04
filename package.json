@@ -14,7 +14,7 @@
   "scripts": {
     "lint:prettier": "prettier --check .",
     "lint:markdown": "markdownlint \"**/*.md\" --ignore node_modules",
-    "lint:text": "textlint \"**/*.md\" --ignore-pattern node_modules",
+    "lint:text": "textlint \"**/*.md\"",
     "lint": "npm run lint:prettier && npm run lint:markdown && npm run lint:text",
     "format": "prettier --write .",
     "test": "npm run lint"
