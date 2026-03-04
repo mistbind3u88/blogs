@@ -46,6 +46,14 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - このリポジトリでは、短めの本文や本文なしの Issue も多い。
   → 詳細な説明が不要な場合はタイトルだけでも良いが、機械生成するときは上記 3 セクションを用意してから、不要なら省く。
 
+### ISSUE_TEMPLATE との対応
+
+- 詳細な構造は `.github/ISSUE_TEMPLATE.md` をそのまま使う。
+- このスキルでは次だけ意識する:
+  - テンプレート中の「Subject」は、タイトルの `subject` 部分と意味がずれないように書く。
+  - `Where` には投稿先（note / カクヨム / なろう / はてなブログなど）を簡潔に書く。
+  - `What` には「やりたいこと・記事の方向性」をタイトルより少し具体的に分解して書く。
+
 ---
 
 ## PR の作り方
@@ -93,6 +101,14 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - `npm test` または `npm run lint`
 - この PR の GitHub Actions (Lint) が green であること
 ```
+
+### PULL_REQUEST_TEMPLATE との対応
+
+- 詳細な構造は `.github/PULL_REQUEST_TEMPLATE.md` をそのまま使う。
+- このスキルでは次だけ意識する:
+  - `Subject as How` では、対応する Issue の Subject（タイトルの `subject` 部分）を「どう実現したか」で短く説明する。
+  - `Details` には、この SKILL.md で示した `概要 / 変更内容 / 確認方法` の内容を対応させればよい。
+  - Issue 側の「Why」に対して、PR 側の `Subject as How` が「具体的な解決方法」になるイメージで書く。
 
 ---
 
