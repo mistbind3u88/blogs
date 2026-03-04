@@ -13,6 +13,7 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - Conventional Commits 風のフォーマットをベースにする。
 - タイトルは「英語の型」＋「日本語で具体的に」のハイブリッド。
 - Issue と PR は 1:1 対応を基本とし、PR タイトルに `#issue番号` を含めて紐付けを明示する。
+- PRタイトルとブランチ名のIDは、必ず「この作業で実際に作成したIssueの番号」を使う。
 - メンテ作業や設定調整も通常の Issue / PR で扱う（特別扱いしない）。
 
 ---
@@ -117,7 +118,7 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - README のルールを踏襲する:
   - 機能追加・記事執筆: `feature/#{id}-{description}`
   - 修正: `fix/#{id}-{description}`
-- `{id}` は対応する Issue 番号。
+- `{id}` は対応する Issue 番号（新規 Issue を作成した場合は、その作成直後の実番号）。
 - `{description}` は英語のスラッグ（kebab-case）で簡潔に。
   - 例: `feature/#172-three-subjects-story`
   - メンテ系: `chore/repo-maintenance-lint-ci` のようなスラッグのみも許容。
@@ -129,6 +130,7 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - [ ] このリポジトリか？ → `mistbind3u88/blogs` であること。
 - [ ] Issue タイトルは `type(scope): subject` 形式か？
 - [ ] PR タイトルは `type(scope): #issue番号 subject` 形式か？
+- [ ] PR/ブランチに使う番号は「作成済み Issue の実番号」と一致しているか？
 - [ ] ブランチ名は Issue 番号と簡潔なスラッグを含んでいるか？
 - [ ] 本文は「概要 / 変更内容 / 確認方法」を過不足なく満たしているか？
 - [ ] README.md の内容は、この Issue/PR の目的に関係しない限り、勝手に書き換えない。
