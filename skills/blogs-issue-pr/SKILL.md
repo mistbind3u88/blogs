@@ -110,6 +110,7 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
   - `Subject as How` では、対応する Issue の Subject（タイトルの `subject` 部分）を「どう実現したか」で短く説明する。
   - `Details` には、この SKILL.md で示した `概要 / 変更内容 / 確認方法` の内容を対応させればよい。
   - Issue 側の「Why」に対して、PR 側の `Subject as How` が「具体的な解決方法」になるイメージで書く。
+  - PR本文の末尾に `Closes #<issue番号>`（または `Resolves #<issue番号>`）を必ず1行で記載し、マージ時に Issue が自動クローズされるようにする。
 
 ---
 
@@ -130,6 +131,7 @@ description: Guidelines for creating GitHub Issues, Pull Requests, and related b
 - [ ] このリポジトリか？ → `mistbind3u88/blogs` であること。
 - [ ] Issue タイトルは `type(scope): subject` 形式か？
 - [ ] PR タイトルは `type(scope): #issue番号 subject` 形式か？
+- [ ] PR 本文に `Closes #<issue番号>` か `Resolves #<issue番号>` を記載したか？
 - [ ] PR/ブランチに使う番号は「作成済み Issue の実番号」と一致しているか？
 - [ ] ブランチ名は Issue 番号と簡潔なスラッグを含んでいるか？
 - [ ] 本文は「概要 / 変更内容 / 確認方法」を過不足なく満たしているか？
