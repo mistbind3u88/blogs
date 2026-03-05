@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "The purpose of this repository is to manage the history of my personal blog writing drafts.",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "markdownlint-cli": "^0.45.0",
     "prettier": "^3.6.2",
@@ -28,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/mistbind3u88/blogs/issues"
   },
-  "homepage": "https://github.com/mistbind3u88/blogs#readme"
+  "homepage": "https://github.com/mistbind3u88/blogs#readme",
+  "overrides": {
+    "katex": "0.16.11"
+  }
 }
