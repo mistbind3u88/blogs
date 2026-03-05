@@ -7,10 +7,8 @@ description: Workflow for updating Issues and Pull Requests for completed 三題
 
 このスキルは、`mistbind3u88/blogs` リポジトリの三題噺ストーリー（`stories/three_subjects/*.md`）について、
 
-- 作品が書き上がった後に Issue と PR の内容を「完成した作品」に合わせて更新する
-
-ためのワークフローをまとめたものです。
-初期の Issue 作成〜ファーストコミット〜Draft PR 作成までは `stories-three-subjects-workflow` と `blogs-issue-pr-workflow` のルールに従い、その続きとして使います。
+- 作品が書き上がった後に Issue と PR の内容を「完成した作品」に合わせて更新するためのワークフローをまとめたものです。
+  初期の Issue 作成〜ファーストコミット〜Draft PR 作成までは `stories-three-subjects-workflow` と `blogs-issue-pr-workflow` のルールに従い、その続きとして使います。
 
 重要:
 
