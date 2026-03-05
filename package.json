@@ -1,12 +1,12 @@
-﻿{
+{
   "name": "blogs",
   "version": "1.0.0",
   "description": "The purpose of this repository is to manage the history of my personal blog writing drafts.",
   "main": "index.js",
   "devDependencies": {
-    "markdownlint-cli": "^0.45.0",
-    "prettier": "^3.6.2",
-    "textlint": "^15.4.0",
+    "markdownlint-cli": "^0.48.0",
+    "prettier": "^3.8.1",
+    "textlint": "^15.5.2",
     "textlint-rule-preset-japanese": "^10.0.4"
   },
   "scripts": {
