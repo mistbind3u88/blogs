@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "blogs",
   "version": "1.0.0",
   "description": "The purpose of this repository is to manage the history of my personal blog writing drafts.",
@@ -6,8 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "markdownlint-cli": "^0.45.0",
-    "prettier": "^2.8.8",
-    "prettier-plugin-md-nocjsp": "^1.5.1",
+    "prettier": "^3.6.2",
     "textlint": "^15.4.0",
     "textlint-rule-preset-japanese": "^10.0.4"
   },

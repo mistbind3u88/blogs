@@ -104,7 +104,6 @@ git push -u origin feature/#<id>-three-subjects-story
 ## Step 4: Draft PR を作成する
 
 1. PR タイトルは `blogs-issue-pr-workflow` のルールに従い、Issue と紐付ける。
-
    - 形式: `feat(stories): #<id> subject`
    - 三題噺の場合の subject は、最初は日付ベースでよい:
      - 例: `feat(stories): #172 三題噺 '24/04/11`
