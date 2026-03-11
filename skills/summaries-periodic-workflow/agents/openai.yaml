@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Summaries Periodic Workflow"
+  short_description: "Issue/PRベースで月次・半期・年次サマリを作成"
+  default_prompt: "Create or update monthly, half-year, or yearly summaries in summaries/ using completed-based GitHub Issue and PR data."
