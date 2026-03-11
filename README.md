@@ -36,6 +36,18 @@
 
 三題噺など短編を書いた時に。
 
+### [summaries](https://github.com/mistbind3u88/blogs/tree/main/summaries)
+
+Issue / PR をもとに活動を振り返るためのサマリ置き場。
+
+年次サマリは summaries/YYYY.md、半期サマリは summaries/half-year/YYYY-H1.md / YYYY-H2.md に置く。
+
+### [skills](https://github.com/mistbind3u88/blogs/tree/main/skills)
+
+Codex に渡す作業手順の置き場。
+
+活動サマリの集計と文章化は skills/summaries-periodic-workflow を使って再生成できるようにしている。
+
 ## about Editors
 
 ### Visual Studio Code
