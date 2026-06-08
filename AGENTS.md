@@ -15,6 +15,13 @@
 - 文字コードは `UTF-8 (BOM なし)` を使用すること。
 - Markdown は見出し・段落・空行の構造を保ち、文途中改行を避けること。
 
+## Writing Article Agent Notes
+
+- 執筆記事に関するエージェントの作業メモは、記事本文とは別ファイルに分離すること。
+- メモファイル名は対象記事のファイル名に `.AGENTS.md` を付けた形式とすること。
+- 例: `journey.2026.四国旅行計画帳.md` のメモは `journey.2026.四国旅行計画帳.AGENTS.md` とする。
+- 記事本文ファイルには、公開先へ投稿する本文のみを置くこと。
+
 ## Summary Workflow
 
 - 活動サマリの集計や再生成を行う場合は `skills/summaries-periodic-workflow/SKILL.md` を使うこと。
