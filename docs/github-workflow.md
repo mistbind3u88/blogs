@@ -21,7 +21,7 @@ Issue 本文は、必要なら `背景`、`やりたいこと`、`完了条件` 
 
 `.github/ISSUE_TEMPLATE.md` と `.github/PULL_REQUEST_TEMPLATE.md` は、そのまま使う前提でよい。ただし意図としては、Issue 側が `Why`、PR 側が `How` を受け持つ。
 
-- Issue の `Subject` は、更新の目的や題材を表す。
+- Issue の `Subject` は、更新の目的や対象を表す。
 - Issue の `Where` は、公開先や想定媒体を書く場所とみなす。
 - PR の `Subject as How` は、Issue の目的をどう実現したかを短く説明する場所とみなす。
 
