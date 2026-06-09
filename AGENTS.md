@@ -22,8 +22,18 @@
 - 例: `journey.2026.四国旅行計画帳.md` のメモは `journey.2026.四国旅行計画帳.AGENTS.md` とする。
 - 記事本文ファイルには、公開先へ投稿する本文のみを置くこと。
 
-## Summary Workflow
+## 基本方針
 
-- 活動サマリの集計や再生成を行う場合は `skills/summaries-periodic-workflow/SKILL.md` を使うこと。
-- 年次サマリの出力先は `summaries/YYYY.md`、半期サマリの出力先は `summaries/half-year/YYYY-H1.md` / `YYYY-H2.md` とすること。
-- 本文は一般の読み手が分かる語彙で書き、Git や実装寄りの用語をそのまま見出しや説明に出さないこと。
+@docs/repository-philosophy.md
+
+## コンテンツ構造
+
+@docs/content-structure.md
+
+## Markdown と文章ルール
+
+@docs/markdown-writing-rules.md
+
+## GitHub 運用
+
+@docs/github-workflow.md
