@@ -11,7 +11,13 @@ description: Workflow for creating GitHub Issues, first commits, pushing branche
 - ファーストコミットを作って push する
 - Draft PR を作る
 
-ところまでを、`blogs-issue-pr-workflow` の方針に沿って「必要最低限の情報」で揃えるための手順をまとめたものです。
+ところまでを、`blogs-issue-pr-workflow` の方針に沿って揃えるための手順をまとめたものです。
+
+重要:
+
+- Issue 作成時は `.github/ISSUE_TEMPLATE.md` の見出し（`Subject as Why` / `Where` / `What`）をそのまま使う。
+- PR 作成時は `.github/PULL_REQUEST_TEMPLATE.md` の見出し（`Subject as How` / `Details`）をそのまま使う。
+- 本スキル内の文章例より、テンプレートの見出し・項目を優先する。
 
 ---
 
@@ -31,22 +37,30 @@ description: Workflow for creating GitHub Issues, first commits, pushing branche
 2. Issue タイトルを作る（`blogs-issue-pr-workflow` 準拠）
    - 形式: `feat(stories): 三題噺 '<YY>/<MM>/<DD>`
    - 例: `feat(stories): 三題噺 '24/04/11`
-3. Issue 本文は最小構成でよい。デフォルトでは次を提案し、不要ならユーザーと相談して削る:
+3. Issue 本文は `.github/ISSUE_TEMPLATE.md` をベースに作る。見出し名は変更しない:
 
 ```markdown
-## 背景
+# Subject as Why
 
 - 三題噺スイッチ改訂版から出力したお題で短編を書く。
 
-## やりたいこと
+# Where
 
-- `stories/three_subjects/24_04_11.md` に三題噺本文とメモをまとめる。
-- 公開予定があれば、掲載先（note / カクヨム 等）を簡単に決めておく。
+- note（予定）
 
-## 完了条件
+# What
 
-- 三題噺本文が最後まで書けている。
-- 必要に応じて README や他ファイルへのリンク・補足を追記している。
+## 本文執筆
+
+- `stories/three_subjects/24_04_11.md` に本文を書く
+
+## お題整理
+
+- コトバンク参照とメモを更新する
+
+## 仕上げ
+
+- 公開前の最終見直しを行う
 ```
 
 4. Issue を作成したら、その番号 `#<id>` を控える（以降のブランチ名・PR タイトルで利用）。
@@ -110,22 +124,26 @@ git push -u origin feature/#<id>-three-subjects-story
    - お題 3 つが確定していれば、それを入れる:
      - 例: `feat(stories): #172 三題噺「山崩れ」「料理人」「アルバム」`
 
-2. PR 本文は最小構成とし、テンプレートの「Subject as How」「Details」に対応するよう、次のような内容をベースにする:
+2. PR 本文は `.github/PULL_REQUEST_TEMPLATE.md` に合わせる。見出し名は変更しない:
 
 ```markdown
-## 概要
+# Subject as How
 
 - 三題噺 '24/04/11 の本文とメモを追加します。
 
-## 変更内容
+# Details
 
-- `stories/three_subjects/24_04_11.md`
-  - 三題噺本文
-  - お題と構成メモ
+## 本文
 
-## 確認方法
+- `stories/three_subjects/24_04_11.md` に本文を追加
 
-- 記事本文を通読し、構成・日本語表現に違和感がないかを確認してください。
+## お題とメモ
+
+- お題情報と構成メモを更新
+
+## 確認
+
+- 通読して構成・日本語表現を確認
 ```
 
 3. PR は Draft 状態で作成し、本文が書き上がった段階で「Ready for review」に切り替える。
@@ -142,4 +160,6 @@ git push -u origin feature/#<id>-three-subjects-story
 - [ ] ブランチ名が `feature/#<id>-three-subjects-...` の形式になっている。
 - [ ] ファーストコミットには三題噺本文関連のファイルのみを含めている。
 - [ ] PR タイトルが `feat(stories): #<id> ...` になっており、Draft で作成されている。
+- [ ] Issue 本文が `Subject as Why` / `Where` / `What` を使っている。
+- [ ] PR 本文が `Subject as How` / `Details` を使っている。
 - [ ] 追加の設定変更やメンテ作業は、必要に応じて別 Issue / PR に分離している。
