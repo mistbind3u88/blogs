@@ -1,0 +1,4 @@
+interface:
+  display_name: "Import Note Workflow"
+  short_description: "note記事をローカルMarkdownへ取り込む"
+  default_prompt: "Use $import-note-workflow to import a published note article into a local Markdown file in this repository."
