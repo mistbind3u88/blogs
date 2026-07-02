@@ -116,11 +116,6 @@ Issue / PR から活動サマリを作る。
 - `half-year`: `summaries/half-year/YYYY-H1.md` / `YYYY-H2.md`
 - `yearly`: `summaries/YYYY.md`
 
-### 5. 整形確認
-
-- `npm run format`
-- `npm run lint:prettier`
-
 ## 必須ルール
 
 - 本文・見出しは日本語

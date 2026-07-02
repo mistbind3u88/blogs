@@ -1,17 +1,13 @@
 ---
 name: stories-three-subjects-workflow
-description: Workflow for creating GitHub Issues, first commits, pushing branches, and draft Pull Requests for 三題噺 stories in mistbind3u88/blogs. Use when you have a new stories/three_subjects/YYYY_MM_DD.md file and want to go from first commit to draft PR with minimal but consistent Issue/PR contents.
+description: Workflow for preparing repo-specific Issue, branch, first-commit scope, and initial PR draft contents for 三題噺 stories in mistbind3u88/blogs. Use when you have a new stories/three_subjects/YYYY_MM_DD.md file and want the story-specific GitHub metadata and commit scope decided before generic Git/GitHub execution steps.
 ---
 
 # stories-three-subjects-workflow
 
-このスキルは `mistbind3u88/blogs` リポジトリの三題噺用ストーリー（`stories/three_subjects/*.md`）について、
+このスキルは `mistbind3u88/blogs` リポジトリの三題噺用ストーリー（`stories/three_subjects/*.md`）について、Issue / ブランチ / ファーストコミット / 初期 PR に何を載せるかを、`blogs-issue-pr-workflow` の方針に沿って「必要最低限の情報」で揃えるための手順をまとめたものです。
 
-- Issue を作る
-- ファーストコミットを作って push する
-- Draft PR を作る
-
-ところまでを、`blogs-issue-pr-workflow` の方針に沿って「必要最低限の情報」で揃えるための手順をまとめたものです。
+Git の実行、commit、push、PR 作成そのものはこのスキルの責務に含めない。ここでは repo 固有の内容を決める。
 
 ---
 
@@ -19,7 +15,7 @@ description: Workflow for creating GitHub Issues, first commits, pushing branche
 
 - 対象リポジトリは `mistbind3u88/blogs`。
 - `stories/three_subjects/YYYY_MM_DD.md` がテンプレートから複製され、ある程度本文・メモが書かれている。
-- 現在のブランチはその三題噺用に切られている（初回コミットはまだ、またはこれから作り直す前提）。
+- 現在のブランチはその三題噺用に切られている、またはこれから切る前提。
 - Issue / PR の一般的なルールは `blogs-issue-pr-workflow` に従う。
 
 ---
@@ -69,39 +65,16 @@ git branch -m <old-branch-name> feature/#<id>-three-subjects-story
 
 ---
 
-## Step 3: ファーストコミットを作って push する
+## Step 3: ファーストコミットに含める範囲を決める
 
-1. 変更を確認する:
-
-```bash
-git status
-```
-
-2. 三題噺の本文ファイルをステージングする:
-
-```bash
-git add stories/three_subjects/24_04_11.md
-```
-
-- 付随するメモファイルなどがあれば同じコミットに含めてもよいが、設定ファイルや全体メンテは別コミットに分ける。
-
-3. コミットメッセージは Issue タイトルと同じ型で揃える:
-
-```bash
-git commit -m "feat(stories): 三題噺 '24/04/11"
-```
-
-4. 必要に応じて `npm test` や `npm run lint` を実行してから push する。
-
-5. 初回 push:
-
-```bash
-git push -u origin feature/#<id>-three-subjects-story
-```
+1. ファーストコミットには三題噺の本文ファイルを中心に含める。
+2. 付随するメモファイルなどがあれば同じコミットに含めてもよいが、設定ファイルや全体メンテは別コミットに分ける。
+3. コミットメッセージは Issue タイトルと同じ型で揃える。
+   - 例: `feat(stories): 三題噺 '24/04/11`
 
 ---
 
-## Step 4: Draft PR を作成する
+## Step 4: Draft PR に載せる初期情報を決める
 
 1. PR タイトルは `blogs-issue-pr-workflow` のルールに従い、Issue と紐付ける。
    - 形式: `feat(stories): #<id> subject`
@@ -128,9 +101,7 @@ git push -u origin feature/#<id>-three-subjects-story
 - 記事本文を通読し、構成・日本語表現に違和感がないかを確認してください。
 ```
 
-3. PR は Draft 状態で作成し、本文が書き上がった段階で「Ready for review」に切り替える。
-
-4. 公開先や公開予定日など、運用上必要な情報があれば PR 本文または Issue に追記する。
+3. 公開先や公開予定日など、運用上必要な情報があれば PR 本文または Issue に追記する。
 
 ---
 
@@ -141,5 +112,5 @@ git push -u origin feature/#<id>-three-subjects-story
 - [ ] Issue タイトルが `feat(stories): 三題噺 'YY/MM/DD` 形式になっている。
 - [ ] ブランチ名が `feature/#<id>-three-subjects-...` の形式になっている。
 - [ ] ファーストコミットには三題噺本文関連のファイルのみを含めている。
-- [ ] PR タイトルが `feat(stories): #<id> ...` になっており、Draft で作成されている。
+- [ ] PR タイトルが `feat(stories): #<id> ...` になっており、初期 PR 本文の材料が揃っている。
 - [ ] 追加の設定変更やメンテ作業は、必要に応じて別 Issue / PR に分離している。

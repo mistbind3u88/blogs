@@ -143,7 +143,7 @@ description: Write a four-part analysis set for a story in one markdown file: re
 - 圧縮版は、元の1000字版コミットとは別コミットで記録する。
 - スキル更新（手順改訂）は成果物コミットと分離し、独立したコミットにする。
 
-圧縮時の優先順位:
+## 圧縮時の優先順位
 
 1. 主張の明確さ
 2. 根拠の最低限の具体性
